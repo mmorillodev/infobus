@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF"
+    tools:context="com.softbox.infobus.Tabelas">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="Selecione uma data:" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="45dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/small_calendar" />
+
+                <Spinner
+                    android:id="@+id/spinDia"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="0.18"
+                    android:background="#AAA"
+                    android:isScrollContainer="true"
+                    android:text="Dia" />
+
+                <Spinner
+                    android:id="@+id/spinMes"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="0.18"
+                    android:background="#AAA"
+                    android:isScrollContainer="true"
+                    android:text="Mês" />
+
+                <Spinner
+                    android:id="@+id/spinAno"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#AAA"
+                    android:isScrollContainer="true"
+                    android:text="Ano"
+                    android:textSize="30sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btnGo"
+                android:layout_width="199dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimary"
+                android:text="Ver informações" />
+
+            <TextView
+                android:id="@+id/txtDia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:text="" />
+
+            <ListView
+                android:id="@+id/listTable"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_weight="1.66" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

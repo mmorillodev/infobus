@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_linhas"
+            android:icon="@drawable/menu"
+            android:title="Tabelas de lotação" />
+        <item
+            android:id="@+id/nav_duvida"
+            android:icon="@drawable/doubt"
+            android:title="Dúvidas frequentes"/>
+    </group>
+   <item android:title="Sobre o aplicativo">
+       <menu>
+           <item
+               android:id="@+id/nav_updates"
+               android:icon="@drawable/refresh_button"
+               android:title="O que há de novo?" />
+       </menu>
+   </item>
+
+
+</menu>

@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.softbox.infobus.LinesFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/btnLinha1"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:textColor="#000"
+                android:background="@color/btnColor"
+                android:text="Vazio 2" />
+            <Button
+                android:id="@+id/btnLinha2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:textColor="#000"
+                android:background="@color/btnColor"
+                android:text="Linha 2" />
+            <Button
+                android:id="@+id/btnLinha3"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:height="50dp"
+                android:textColor="#000"
+                android:background="@color/btnColor"
+                android:text="Linha 3" />
+            <Button
+                android:id="@+id/btnLinha4"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:textColor="#000"
+                android:background="@color/btnColor"
+                android:text="Linha 4" />
+            <Button
+                android:id="@+id/btnLinha5"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:textColor="#000"
+                android:background="@color/btnColor"
+                android:text="Linha  5" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</FrameLayout>

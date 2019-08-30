@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">InfoBus</string>
+    <string name="title_activity_tela_sem_login">InfoBus</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tela_com_login">Bem-vindo</string>
+
+    <string name="atualizacao">
+        \t\tCom qual frequencia os dados do sistema InfoBus são atualizados?
+    </string>
+
+    <string name="resp_atalizacao">
+        \tNossas tabelas são atualizadas, diaramente no periodo da noite,
+        para que você possa estar semper atento ao melhor horário de utilização dps transportes públicos.
+    </string>
+    <string name="sobre_tabelas">
+        \tO que mostram nossas tabelas?
+    </string>
+
+    <string name="sobre_tabelas2">
+        \tApresentam dados sobre a quantidade de pessoas que utilizam linhas viárias do Grande ABC
+        , dispostos em tabelas divididas em níveis.
+    </string>
+    <string name="semConexao">Verifique sua conexão com a internet!</string>
+</resources>
